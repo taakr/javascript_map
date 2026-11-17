@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: #ffb5f4;
+  color: #FFF;
+}
+
+.leaflet-popup-content img {
+  width: 140px; /* 好きなサイズへ */
+  height: auto;
+  display: block;
+  margin: 5px 0;
+}
